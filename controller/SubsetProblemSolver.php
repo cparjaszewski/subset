@@ -205,6 +205,15 @@ class SubsetProblemSolver {
 				}
 			}
 		}
+		
+		// We must remove the empty paths:
+		$tempPaths = array();
+		foreach($paths as $path) {
+			if($path != 0 && count($path) != 0) {
+				$tempPaths[] = $path;
+			}
+		}
+		$paths = $tempPaths;
 	}
 	
 	/*
@@ -212,10 +221,10 @@ class SubsetProblemSolver {
 	 */
 	protected function _addToPathStack( $currentIndex, $requestedSum, $pathIndex ) {
 		array_push( 
-				$this->_pathStack,
-				array( 'index' => $currentIndex,
-						'sum' => $requestedSum,
-						'pathIndex' => $pathIndex) 
-				);
+			$this->_pathStack,
+			array( 'index' => $currentIndex,
+					'sum' => $requestedSum,
+					'pathIndex' => $pathIndex) 
+			);
 	}
 }
