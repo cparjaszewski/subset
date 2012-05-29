@@ -1,0 +1,11 @@
+PROBLEM:
+Assume you have an array of unique integers.  Write a function that will return combination of elements that add up to 7.
+example: $array=array(1, 5, 4, 8, -1, 3);
+
+I want a function that will give me 4 and 3, and 8 and -1. (it is right?)
+ 
+For the purposes of this exercise, you can code it as if this is the actual array, 
+but the function should be able to accept any array of unknown length and still process correctly.
+
+SOLUTION:
+This is a modification of the knapsack problem
