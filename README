@@ -9,3 +9,11 @@ but the function should be able to accept any array of unknown length and still 
 
 SOLUTION:
 This is a modification of the knapsack problem
+
+URL:
+The most common version is available at:
+http://skygate.pl/projects/subset/
+
+It is still BETA.
+
+
