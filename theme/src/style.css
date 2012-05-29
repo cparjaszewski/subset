@@ -1,0 +1,92 @@
+/* = Reset
+-------------------------------------------------------------- */
+
+a, abbr, address, article, aside, audio, b, blockquote, body, button, canvas, 
+caption, cite, code, .dd, del, details, dfn, div, .dl, .dt, em, embed, fieldset,
+figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup,
+html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, 
+object, ol, p, pre, q, samp, section, small, span, sub, summary, 
+sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video { 
+	margin: 0; padding: 0;
+	border: 0; font-size: 100%; vertical-align: baseline; 
+	font-weight: inherit; font-style: inherit; }
+	
+	article, aside, canvas, details, figcaption, figure, footer, header, 
+	hgroup, menu, nav, section, summary { display: block; }
+	
+	a, ins, del { text-decoration: none; }
+	
+	ul, ol { list-style: none; }
+	
+	table { border-spacing: 0; border-collapse: collapse; }
+	
+	caption, th { text-align: left; }
+	
+	q:after, q:before { content: ""; }
+	
+	a, button:hover { cursor: pointer; }
+	
+	input, textarea { outline: none; }
+	
+/* = Main Layout
+---------------------------------------------------------- */
+body { 
+	background-color: #fcfcfc; width: 960px; margin: 0 auto; }
+	
+/* = Common styles
+---------------------------------------------------------- */
+a, a:visited, a:hover { color: #f7e393; }
+
+body, html, a, li, ul, div, p, span {
+	font-family: 'Trebuchet MS'; color: #070707; }
+	
+	h1 { line-height: 2.1em; font-size: 2 em;}
+	
+	h2 { line-height: 1.7em; font-size: 1.6em; }
+	
+	h3 { line-height: 1.3em; font-size: 1.2em; }
+
+		
+/* = Utils
+---------------------------------------------------------- */
+.clear-both { clear: both; }
+
+
+/* = Images
+---------------------------------------------------------- */
+#logo { margin-bottom: 40px;}
+
+	#logo { /* Border Radius */
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px; }
+
+	.button { margin: 10px; padding: 10px; }
+	
+/* = Buttons
+---------------------------------------------------------- */
+.solve { background: #13A91E; padding: 5px 25px; font-weight: bold; }
+		
+	.solve { /* Border Radius */
+			-webkit-border-radius: 12px;
+			-moz-border-radius: 12px;
+			border-radius: 12px; }
+			
+	.solve { /* Gradient */
+		background: #bfd255; /* Old browsers */
+		background: -moz-linear-gradient(top,  #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bfd255), color-stop(50%,#8eb92a), color-stop(51%,#72aa00), color-stop(100%,#9ecb2d)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* IE10+ */
+		background: linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+
+	}
+	
+/* = Result Paths
+---------------------------------------------------------- */	
+#resultPaths { margin-top: 20px; margin-bottom: 20px; }
+
+/* = Result Paths
+---------------------------------------------------------- */	
